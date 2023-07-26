@@ -74,3 +74,7 @@ Calcola la media dei numeri inseriti.
   - divido la somma dei valori inseriti per la quantità degli indici della lista
 
 - **Finche** la lista somma degli elementi non è minore di 50
+
+## Snack 5
+
+### Traccia trovare gli errori nel codice
