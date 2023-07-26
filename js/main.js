@@ -72,9 +72,12 @@ while (i < 50) {
   // - aggiungo quel valore come elemento dentro la lista
   listNumbers.push(number);
 
+  // Calcolo la media dei valori inseriti dall'utente
   numberMedia = parseInt(i / listNumbers.length);
 }
 
+// Stampo la tabella
 console.table(listNumbers);
 
-console.log(numberMedia);
+// Stampo la media dei valori
+console.log("Media dei valori inseriti: " + numberMedia);
