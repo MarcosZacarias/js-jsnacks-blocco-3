@@ -53,3 +53,24 @@ Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Contin
 - aggiungo quel valore come elemento dentro la lista
 
 - **Finche** la lista non è minore di 50
+
+## Snack 4
+
+### Traccia
+
+Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
+Calcola la media dei numeri inseriti.
+
+### Istruzioni
+
+- Creo una lista vuoto
+
+- chiedo all'utente dei valori
+
+- aggiungo quel valore come elemento dentro la lista
+
+- Calcola la media dei valori
+
+  - divido la somma dei valori inseriti per la quantità degli indici della lista
+
+- **Finche** la lista somma degli elementi non è minore di 50

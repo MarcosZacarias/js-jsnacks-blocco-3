@@ -52,12 +52,14 @@
 
 //  ------------------------------------------------------------------- //
 
-// Snack 3
+// Snack 4
 
 // - Creo una lista vuoto
 const listNumbers = [];
 
 let i = 0;
+
+let numberMedia = 0;
 
 // - la lista non è minore di 50
 while (i < 50) {
@@ -69,6 +71,10 @@ while (i < 50) {
 
   // - aggiungo quel valore come elemento dentro la lista
   listNumbers.push(number);
+
+  numberMedia = parseInt(i / listNumbers.length);
 }
 
 console.table(listNumbers);
+
+console.log(numberMedia);
